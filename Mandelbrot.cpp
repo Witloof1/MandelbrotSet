@@ -33,8 +33,7 @@ void mandelbrot()
 				if (a*a + b*b > 4)
 					break;
 			}
-		
-			// sf::Uint8 color = map(n, 0, 32, 0, 255);
+			
 			sf::Uint8 color = n*8;
 
 			pixels[(y * WIDTH + x) * 4 + 0] = color;
